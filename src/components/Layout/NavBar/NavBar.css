@@ -1,0 +1,39 @@
+.navBar {
+  margin: auto;
+  background-color: #fff;
+  width: 80%;
+  font-style: italic;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navBar a:hover,
+.navBar a:active,
+.navBar a.active {
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(252, 168, 13);
+}
+
+.navbar-brand-centered {
+  position: absolute;
+  left: 45%;
+  display: block;
+  width: 16px;
+  text-align: center;
+  background-color: transparent;
+}
+.nav-item {
+  font-size: 18px;
+  margin: auto;
+  color: #333;
+}
+.nav-link-right {
+  padding-right: 25px;
+}
+.nav-link-left {
+  padding-left: 25px;
+}
